@@ -1,0 +1,51 @@
+.blog_section_header {
+    background: #e1e1e1;
+    padding: 70px 0;
+    text-align: center;
+}
+
+h1.blog_section_title {
+    font-size: 61px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.blog_posts {
+    padding: 80px 0;
+}
+
+.blog_item {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.blog_thum {
+    border-radius: 31px;
+    overflow: hidden;
+}
+
+.blog_thum img {
+    width: 100%;
+}
+
+.blog_content h2 {
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #02003c;
+    line-height: 40px;
+    margin-top: 25px;
+}
+
+.blog_content p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* single post  */
+.post_content h1 {
+    margin: 43px 0 !important;
+    line-height: 53px;
+    font-weight: 700;
+    color: #011c23;
+}

@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section_pd {
+  padding: 70px 0;
+}
+
+.sign_text {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+form.login_form input {
+  padding: 17px 10px;
+  border: 2px solid #ffa504;
+  font-size: 20px;
+  color: #080808 !important;
+}
+
+.login_form .form-control:focus {
+  color: #ffa502;
+  border-color: #ffa500;
+  box-shadow: none;
+}
+
+.login_form .login_btn {
+  width: 100%;
+  background: #ffa500;
+  color: #000;
+  font-weight: 800;
+  font-size: 25px;
+  border: 0;
+}
+
+.reset_password {
+  border: none;
+  color: #7200ff;
+  background: no-repeat;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+}

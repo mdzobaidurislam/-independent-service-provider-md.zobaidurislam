@@ -1,0 +1,97 @@
+.service_section {
+    padding: 80px 0;
+    background: url("../../img/service_bg.png");
+    position: relative;
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section_title h2 {
+    font-size: 52px;
+    font-weight: 600;
+    color: #ffa500;
+    position: relative;
+}
+
+.section_title h2 span {
+    color: #06161e;
+}
+
+.services_item {
+    padding: 20px !important;
+    margin-bottom: 30px;
+}
+
+.thum img {
+    width: 40%;
+}
+
+.services_item h3 {
+    font-size: 20px;
+    color: #101217;
+    margin-top: 14px;
+    font-weight: 300;
+    position: relative;
+}
+
+.section_title h2::after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 42px;
+    background: #06161f;
+    bottom: 6px;
+    left: 229px;
+}
+
+.section_title p {
+    font-size: 22px;
+    margin: 31px 0px;
+    color: #07171f;
+    font-weight: 500;
+}
+
+/* services item  */
+.services_item h3 {
+    font-size: 20px;
+    color: #004365;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.price {
+    font-size: 20px;
+    color: #071820;
+    font-weight: 500;
+}
+
+.short_des {
+    font-weight: 500;
+    font-size: 17px;
+    color: #07161f;
+    line-height: 34px;
+}
+
+@media (max-width: 375px) {
+    .section_title h2 {
+        font-size: 47px;
+    }
+}
+
+@media (max-width: 320px) {
+    .section_title h2 {
+        font-size: 30px;
+    }
+
+    .section_title h2::after {
+        height: 26px;
+        left: 270px;
+    }
+
+    .section_title p {
+        font-size: 14px;
+    }
+}

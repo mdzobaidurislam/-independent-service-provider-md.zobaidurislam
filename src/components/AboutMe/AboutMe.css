@@ -1,0 +1,25 @@
+.about_me {
+    text-align: center;
+}
+
+.about_thum {
+    margin-bottom: 30px;
+}
+
+.about_thum img {
+    width: 180px !important;
+}
+
+.about_me h3 {
+    font-size: 25px;
+    color: #080808;
+    font-weight: 800;
+}
+
+.about_me p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #080808;
+    line-height: 40px;
+    padding: 0 30px;
+}
